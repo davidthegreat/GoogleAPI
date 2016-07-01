@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
+  <!--
     normalize.css removes cross-browser differences in defaults, e.g.,
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
@@ -15,9 +15,21 @@
   <script src="/js/jquery.js"></script>
   <script src="/js/application.js"></script>
 
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<!--     <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script> -->
+
+
+<!--     <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDStukl1UDEaaet0GLcXzg0uMFsBYAuE7M&callback=initMap">
+    </script> -->
   <title></title>
 </head>
 <body>
+
   <%= yield %>
 </body>
 </html>
+
